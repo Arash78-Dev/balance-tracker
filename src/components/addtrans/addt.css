@@ -1,0 +1,55 @@
+.headadd{
+    font-family: monospace;
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+}
+
+.form button{
+    width: 80%;
+    margin:20px 10%;
+    background-color: rgb(122, 78, 245);
+    border: none;
+    font-family: cursive;
+    font-size: 15px;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    padding: 10px;
+    transition: 1s;
+}
+.form button:hover{
+    box-shadow: 0px 0px 2px 1px black ;
+    letter-spacing: 1px;
+}
+.formdata{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.formdata label
+{
+    font-size: 30px;
+    text-align: center;
+    margin:15px;
+}
+
+.formdata input{
+    width: 80%;
+    padding: 15px 10px;
+    outline: none;
+    border:none;
+    border-radius: 2px;
+    font: inherit;
+    font-size: 15px;
+}
+
+
+.span{
+    font-size: 15px;
+}

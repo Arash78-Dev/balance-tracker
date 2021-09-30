@@ -1,0 +1,53 @@
+.lis li{
+    width: 90%;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: content-box;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px 2px black;
+    text-transform: capitalize;
+    position: relative;
+    transition: 1s;
+}
+
+.red{
+    border-right: 10px solid rgb(175, 9, 9);
+}
+.green{
+    border-right: 10px solid green;
+}
+
+.lis li span{
+    float: right;
+}
+.delete{
+    border-radius: 10px 0px 0px 10px;
+    left: -25px;
+    cursor: pointer;
+    height: 100%;
+    top: 0px;
+    padding:10px;
+    color: whitesmoke;
+    background-color: rgb(179, 3, 3);
+    text-align: center;
+    position: absolute;
+    opacity: 0;
+    transition: 0.6s;
+    box-shadow: -10px 0px 20px 7px whitesmoke;
+}
+.lis li:hover{
+    border-radius: 0px 5px 5px 0px;
+}
+.lis li:hover .delete{
+    opacity: 1;
+    left: -34px;
+}
+.paragraph{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 100px 0px;
+    color: teal;
+}

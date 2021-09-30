@@ -1,0 +1,12 @@
+.trans h3{
+    font-family: monospace;
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+}
+
+.list{
+    list-style: none;
+    padding: 0px;
+}

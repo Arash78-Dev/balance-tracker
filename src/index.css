@@ -1,0 +1,8 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+ font-family: cursive;
+  background-color:rgb(209,208,208);
+}

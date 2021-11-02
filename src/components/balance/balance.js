@@ -21,7 +21,7 @@ export const Balance = () => {
     return (
         <>
           <h4 className="balance h4 ">Your Balance</h4>
-          <h1 id={color} className="balance h" >{sign}${Math.abs(balance)} </h1>  
+          <h1 id={color} className="balance h" >{sign}${Math.abs(balance).toFixed(2)} </h1>  
         </>
     )
 }

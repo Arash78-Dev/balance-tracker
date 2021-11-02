@@ -15,6 +15,7 @@ const newtrans={
     text:text,
     amount:Number(amount),
 }
+
 addtrans(newtrans)
 }
     return (
@@ -27,9 +28,9 @@ addtrans(newtrans)
                 </div>
                 <div  className="formdata">
                     <label>Cash: <br/><span className="span">(negative-expense , positive-income)</span> </label>
-                    <input type="number"  value={amount} onChange={(event)=>{setam(event.target.value)}} placeholder="Enter cash..."></input>
+                    <input type="number"   value={amount} onChange={(event)=>{setam(event.target.value)}} placeholder="Enter cash..."></input>
                 </div>
-                <button>Add New Transaction</button>
+                <button onClick={submittig}>Add New Transaction</button>
             </form>
         </div>
     )

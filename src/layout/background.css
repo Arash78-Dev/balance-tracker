@@ -6,3 +6,25 @@
     border-radius: 30px;
 
 }
+@media (max-width:1200px) {
+    .back{
+        width: 60%;
+    }
+}
+@media (max-width:1000px) {
+    .back{
+        width: 80%;
+    }
+}
+@media (max-width:800px) {
+    .back{
+        width: 95%;
+    }
+}
+@media (max-width:600px) {
+    .back{
+        width: 100%;
+    }
+}
+
+
